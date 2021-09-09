@@ -32,7 +32,8 @@ li {
 
 .flexContainer {
     display: flex;
-    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
     margin: 1%;
 }
 
