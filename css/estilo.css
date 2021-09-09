@@ -27,11 +27,17 @@ a:link, a:visited, a:active {
 li {
     list-style: none;
     text-align: center;
+    font-family: 'Bree Serif';
 }
 
 .flexContainer {
     display: flex;
     justify-content: center;
     margin: 1%;
+}
+
+.navbar {
+    font-family: 'Bree Serif';
+    font-size: 110%;
 }
 
