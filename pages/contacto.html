@@ -11,14 +11,14 @@
     
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
     
     <!-- FUENTES DE GOOGLE -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     
     <!-- MI CSS -->
-        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="../css/estilo.css">
 
     <title>Santilli Aparts</title>
   </head>
@@ -34,8 +34,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                         <a class="nav-link" href="#">Unidades</a>
                         <a class="nav-link" href="#">Experiencias</a>
                         <a class="nav-link" href="#">Nosotros</a>
@@ -51,7 +51,7 @@
     <div class="container">
     <div class="row flexContainer">
         <div class="col-12-lg col-12-xs">
-            <a href="#"><h1>Santilli Aparts</h1></a>  
+            <a href="#"><h1>Contacto</h1></a>  
         </div>
     </div>
     </div>
@@ -59,47 +59,48 @@
     
     <!-- MAIN -->
     <div class="container">
-        <div class="row  flexContainer">
+        <div class="row flexContainer formulario">
             <div class="col-12-lg col-12-xs">
-                <p>Somos una empresa familiar dedicada al alquiler y subalquier de departamentos a corto y largo plazo. <br>
-                    Llevamos más de 10 años en el rubro, contando con más de mil clientes satisfechos.</p>
+                <section class="formulario">
+                    <form action="">
+                     <div>
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre">
+                            
+                        </div>
+                        <div>
+                         <label for="apellido">Apellido:</label>
+                         <input type="text" name="apellido">
+                        </div>
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email">
+                        </div>
+                     </div>
+             
+                     <div>Motivo de consulta:
+                         <select name="consulta" id="">
+                             <option value="tarifas">Tarifas</option>
+                             <option value="dispo">Disponibilidad</option>
+                             <option value="asesoramiento">Asesoramiento presencial</option>
+                         </select>
+                     </div>
+                     
+                     <div>¿Desea suscribirse al newlesster?
+                         <input type="checkbox" name="suscribirse">
+                     </div>
+             
+                     <div>
+                         <input type="submit" value="Enviar">
+                         <input type="reset" value="Limpiar">
+                     </div>
+             
+                    </form> 
+                 </section>
             </div>
         </div>
     </div>
-    <!-- CAROUSEL -->
-    <div class="container">
-        <div class="row flexContainer">
-            <div class="col-12-lg col-12-xs">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="assets/imagenes/depa1.jpg" class="d-block w-100" alt="departamento" style="border-radius: 25% 10%;">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/imagenes/depa2.jpg" class="d-block w-100" alt="departamento" style="border-radius: 25% 10%;">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/imagenes/depa3.jpg" class="d-block w-100" alt="departamento" style="border-radius: 25% 10%;">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Siguiente</span>
-                    </a>
-                  </div>
-            </div>
-        </div>
-    </div>
-    <!-- CAROUSEL -->
     <!-- MAIN -->
 
     <!-- FOOTER -->
@@ -117,6 +118,6 @@
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
