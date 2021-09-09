@@ -21,11 +21,17 @@ p {
 }
 
 a:link, a:visited, a:active {
-    text-decoration:none;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    text-align: center;
 }
 
 .flexContainer {
     display: flex;
     justify-content: center;
+    margin: 1%;
 }
 
