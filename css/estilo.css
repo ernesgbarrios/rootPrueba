@@ -20,6 +20,10 @@ p {
     font-size: 135%;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
 .flexContainer {
     display: flex;
     justify-content: center;
