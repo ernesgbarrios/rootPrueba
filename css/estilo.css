@@ -10,7 +10,7 @@ body {
 h1 {
     color: #E63946;
     font-family: 'Lobster';
-    font-size: 800%;
+    font-size: 600%;
 }
 
 p {
@@ -43,7 +43,15 @@ li {
     font-size: 110%;
 }
 
+.titulo {
+    width: 100%;
+    height: auto;
+}
 
+
+/*                  FOOTER                      */
+
+/*                  FOOTER                      */
 
 
 
