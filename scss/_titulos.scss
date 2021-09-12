@@ -1,0 +1,21 @@
+$h1Color : #E63946;
+$h5Color : #457B9D;
+
+h1 {
+    color: $h1Color;
+    text-align: center;
+    font: {
+        family: 'Lobster';
+        size: 600%;
+    };
+}
+
+h5  {
+    color: $h5Color;
+    text-align: center;
+    font: {
+        family: 'Gothic A1';
+        weight: bolder;
+        size: 200%;
+    }
+}
