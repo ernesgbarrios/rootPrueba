@@ -1,0 +1,20 @@
+.footer {
+    text-align: center;
+    font: {
+        family: 'Bree Serif';
+        size: 110%
+    };
+    
+    ul {
+        list-style: none;
+        a{
+            color: $h1Color;
+            text-decoration: none;
+            :hover{
+                color: black;
+                transition: 0.8s;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,88 @@
+h1 {
+  color: #E63946;
+  text-align: center;
+  font-family: 'Lobster';
+  font-size: 600%;
+}
+
+h5 {
+  color: #457B9D;
+  text-align: center;
+  font-family: 'Gothic A1';
+  font-weight: bolder;
+  font-size: 200%;
+}
+
+.imagenExperiencia {
+  width: 64px;
+  height: 64px;
+}
+
+.carousel {
+  border-radius: 25% 10%;
+}
+
+.navbar {
+  text-align: center;
+  border-radius: 25% 10%;
+  font-family: 'Bree Serif';
+  font-size: 110%;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-size: 135%;
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-size: 110%;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul a {
+  color: #E63946;
+  text-decoration: none;
+}
+
+.footer ul a :hover {
+  color: black;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.formulario {
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+.col-4-lg ul {
+  text-align: center;
+  font-family: 'Bree Serif';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F1FAEE;
+}
+
+.flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+}
+/*# sourceMappingURL=styles.css.map */
