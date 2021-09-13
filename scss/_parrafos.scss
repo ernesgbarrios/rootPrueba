@@ -1,3 +1,6 @@
+/* PROBANDO OPERACION */
+$ancho: 50%;
+
 p {
     color: black;
     text-align: center;
@@ -5,4 +8,9 @@ p {
         family: 'Bree Serif';
         size: 135%;
     };
+}
+
+.parrafo_nosotros {
+    width: $ancho * 2;
+    height: auto;
 }

@@ -2,11 +2,12 @@ $h1Color : #E63946;
 $h5Color : #457B9D;
 
 h1 {
+    width: 100%;
     color: $h1Color;
     text-align: center;
     font: {
         family: 'Lobster';
-        size: 600%;
+        size: 500%;
     };
 }
 
