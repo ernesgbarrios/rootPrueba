@@ -1,9 +1,14 @@
+$fuente: 'Bree Serif';
+$tamFuente: 110%;
+
+
+@mixin fuenteNavbar($fuente, $tamFuente) {
+    font-family: $fuente;
+    font-size: $tamFuente;
+}
+
 .navbar {
     text-align: center;
     border-radius: 25% 10%;
-    font: {
-        family: 'Bree Serif';
-        size: 110%;
-    };
+    @include fuenteNavbar($fuente, $tamFuente);
 }
-

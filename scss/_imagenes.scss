@@ -1,6 +1,11 @@
-.imagenExperiencia {
-    width: 64px;
-    height: 64px;
+$imagAncho: 32px * 2;
+$imagAlto: 32 * 2;
+
+@each $tamanio in $imagAncho, $imagAlto {
+    .imagenExperiencia {
+        width: $tamanio;
+        height: $tamanio;
+    }
 }
 
 .carousel {

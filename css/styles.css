@@ -1,20 +1,25 @@
 h1 {
-  width: 100%;
   color: #E63946;
   text-align: center;
-  font-family: 'Lobster';
+  width: 100%;
+  font-family: "Lobster";
   font-size: 500%; }
 
 h5 {
+  width: 100%;
   color: #457B9D;
   text-align: center;
-  font-family: 'Gothic A1';
-  font-weight: bolder;
-  font-size: 200%; }
+  font-family: "Gothic A1";
+  font-size: 200%;
+  font-weight: bolder; }
 
 .imagenExperiencia {
   width: 64px;
   height: 64px; }
+
+.imagenExperiencia {
+  width: 64;
+  height: 64; }
 
 .carousel {
   border-radius: 25% 10%; }
@@ -22,14 +27,14 @@ h5 {
 .navbar {
   text-align: center;
   border-radius: 25% 10%;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 110%; }
 
 /* PROBANDO OPERACION */
 p {
   color: black;
   text-align: center;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 135%; }
 
 .parrafo_nosotros {

@@ -1,13 +1,21 @@
 /* PROBANDO OPERACION */
 $ancho: 50%;
 
+
+
+
+$p: (
+    color: black,
+    centro: center,
+    fuente: 'Bree Serif',
+    tamFuente: 135%,
+);
+
 p {
-    color: black;
-    text-align: center;
-    font: {
-        family: 'Bree Serif';
-        size: 135%;
-    };
+    color: map-get($p, color);
+    text-align: map-get($p, centro);
+    font-family: map-get($p, fuente);
+    font-size: map-get($p, tamFuente);
 }
 
 .parrafo_nosotros {

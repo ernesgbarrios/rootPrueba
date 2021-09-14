@@ -1,22 +1,39 @@
 $h1Color : #E63946;
 $h5Color : #457B9D;
+$h1Tamanio : 500%;
+
+
+
+$h1: (
+    color: $h1Color,
+    centro: center,
+    ancho: 100%,
+    fuente: 'Lobster',
+    tamFuente: $h1Tamanio,
+);
 
 h1 {
-    width: 100%;
-    color: $h1Color;
-    text-align: center;
-    font: {
-        family: 'Lobster';
-        size: 500%;
-    };
-}
+    color: map-get($h1, color);
+    text-align: map-get($h1, centro);
+    width: map-get($h1, ancho);
+    font-family: map-get($h1, fuente);
+    font-size: map-get($h1, tamFuente);
+} 
 
-h5  {
-    color: $h5Color;
-    text-align: center;
-    font: {
-        family: 'Gothic A1';
-        weight: bolder;
-        size: 200%;
-    }
+$h5: (
+    ancho: 100%,
+    color: $h5Color,
+    centro: center,
+    fuente: 'Gothic A1',
+    tamFuente: 200%,
+    tamAncho: bolder,
+);
+
+h5 {
+    width: map-get($h5, ancho);
+    color: map-get($h5, color);
+    text-align: map-get($h5, centro);
+    font-family: map-get($h5, fuente);
+    font-size: map-get($h5, tamFuente);
+    font-weight: map-get($h5, tamAncho);
 }
